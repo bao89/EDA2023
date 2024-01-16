@@ -1,0 +1,2 @@
+compile: g++ -I cudd-3.0.0/cudd/ -I cudd-3.0.0/util/ -I cudd-3.0.0/ 0810952.cpp cudd-3.0.0/cudd/.libs/libcudd.a -lm -O3 -o Lab3
+execute: ./Lab3 [input] [output]
